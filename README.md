@@ -1,1 +1,1 @@
-self portfolio
+self portfoli
