@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
-  const [section, setSection] = useState("home");
+  const [, setSection] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
