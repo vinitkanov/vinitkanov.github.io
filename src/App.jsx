@@ -37,10 +37,9 @@ export default function Home() {
 
   return (
     <main className="font-baloo bg-[#1D0F2F] text-[#F1D7F5]">
-      {/* Navbar */}
       <nav className="flex justify-between p-6 text-sm">
         <div className="font-bold cursor-pointer" onClick={() => location.reload()}>
-          <span className="text-white">muhammad</span> <span className="text-purple-400">khalid &gt;</span>
+          <img src="/full.svg" />
         </div>
         <div className="flex gap-6 text-purple-400">
           <button onClick={() => scrollTo("home")}>Home</button>
@@ -103,8 +102,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="px-10 py-16 text-center">
         <div className="text-3xl font-bold mb-4">
-          <span className="text-white">mk</span>
-          <span className="text-purple-400">&gt;</span>
+          <img src="/mini.svg" />
         </div>
         <div className="flex justify-center gap-6 text-sm mb-4">
           <a href="#home">Home</a>
