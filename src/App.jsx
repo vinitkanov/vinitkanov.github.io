@@ -22,7 +22,7 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Kodeintekno Hero and Navbar Design",
+      title: "Project name",
       date: "January 2025",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed aliquam sollicitudin rhoncus morbi.",
